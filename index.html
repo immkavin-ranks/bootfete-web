@@ -176,29 +176,16 @@
         </div>
       </div>
       <div id="copy">
-        <p>Copyright &copy 2025 NMC IT Team</p>
+        <p>Copyright &copy 2025 NMC IT Team | <span id="date"></span></p>
         <button id="top">&#8679;</button>
       </div>
     </footer>
     <script src="script.js"></script>
     <script>
-      const top = document.getElementById("top");
+      
 
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 200) {
-          top.classList.add("visible");
-        } else {
-          top.classList.remove("visible");
-        }
-      });
 
-      // Scroll to top smoothly when clicked
-      top.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      });
+      
     </script>
   </body>
 </html>
